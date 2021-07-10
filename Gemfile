@@ -70,7 +70,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '>= 2.15'
+  gem 'capybara', '>= 3.11.1'
   # gem 'selenium-webdriver'
   # gem 'chromedriver-helper'
   gem 'rspec-rails',         '~> 3.8'
