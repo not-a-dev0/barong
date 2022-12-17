@@ -55,13 +55,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' or 'binding.pry' anywhere in the code to stop execution and get a debugger console
   gem 'pry-byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'factory_bot_rails',  '~> 4.11'
+  gem 'factory_bot_rails', '~> 4.11', '>= 4.11.1'
   gem 'faker',              '~> 1.8'
 end
 
 group :development do
   gem 'grape_on_rails_routes', '~> 0.3.2'
-  gem 'web-console',  '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
   gem 'listen',       '>= 3.0.5', '< 3.2'
   gem 'annotate',     '~> 2.7'
   gem 'spring'
@@ -73,7 +73,7 @@ group :test do
   gem 'capybara', '>= 2.15'
   # gem 'selenium-webdriver'
   # gem 'chromedriver-helper'
-  gem 'rspec-rails',         '~> 3.8'
+  gem 'rspec-rails', '~> 3.8', '>= 3.8.1'
   gem 'shoulda-matchers',    '~> 4.0.0.rc1'
   gem 'rails-controller-testing'
 end
