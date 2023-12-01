@@ -39,7 +39,7 @@ gem 'bcrypt', '~> 3.1'
 gem 'email_validator', require: 'email_validator/strict'
 gem 'countries', require: 'countries/global'
 gem 'browser', require: "browser/browser"
-gem 'carrierwave', '~> 1.2.2'
+gem 'carrierwave', '~> 2.2.5'
 gem 'bump'
 
 # Use gem to verify recatpcha on server side
