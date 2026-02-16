@@ -29,7 +29,7 @@ gem 'jwt', '~> 2.1'
 gem 'jwt-multisig', '~> 1.0'
 gem 'bunny'
 gem 'phonelib',     '~> 0.6.0'
-gem 'twilio-ruby',  '~> 5.6.0'
+gem 'twilio-ruby', '~> 5.67.0'
 gem 'vault',        '~> 0.1'
 
 # Use Redis adapter to run Action Cable in production
